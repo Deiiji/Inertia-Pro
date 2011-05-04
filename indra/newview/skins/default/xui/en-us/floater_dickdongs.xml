@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<floater can_close="true" can_drag_on_left="false" can_minimize="true"
+     can_resize="false" height="680" name="yo"
+     title="ToolBox" width="270"
+     rect_control="JCToolboxRect">
+	<text bottom="-40" height="16" left="7" name="baked_label" width="250">
+    Gridwide/Targeted functions (offensive)
+  </text>
+  <button bottom_delta="-25" font="SansSerif" follows="left|top" halign="center" height="18" label="Open Asset"
+	     left_delta="6" mouse_opaque="true" name="open_asset_button"
+	     scale_image="TRUE" width="80" />
+  <line_editor bevel_style="in" border_style="line" border_thickness="1" bottom_delta="0"
+	     label="Text input here" enabled="true" follows="left|top" font="SansSerif"
+	     height="18" left_delta="90" max_length="200"
+	     mouse_opaque="true" name="OnyxToolBoxTextEditor" select_all_on_focus_received="false"
+	     select_on_focus="false" width="150" />
+  <line_editor bevel_style="in" border_style="line" border_thickness="1" bottom_delta="-25"
+	     label="(no target)" enabled="false" follows="left|top" font="SansSerif"
+	     handle_edit_keys_directly="false" height="18" left="5" max_length="36"
+	     mouse_opaque="true" name="target_avatar_name" select_all_on_focus_received="false"
+	     select_on_focus="false" width="260" />
+  <line_editor bevel_style="in" border_style="line" border_thickness="1" bottom_delta="-25"
+	     label="(no target)" enabled="false" follows="left|top" font="SansSerif"
+	     handle_edit_keys_directly="false" height="18" left_delta="0" max_length="36"
+	     mouse_opaque="true" name="target_avatar_UUID" select_all_on_focus_received="false"
+	     select_on_focus="false" width="260" />
+  <check_box bottom_delta="-25" enabled="true" follows="left|top" font="SansSerifSmall"
+           height="20" initial_value="false" label="Ntabs" left_delta="0"
+           name="ntab_toggle" radio_style="false" width="100" />
+  <button bottom_delta="0" follows="left|top" font="SansSerif" halign="center"
+       height="18" label="Set Target" label_selected="Set Target" left_delta="65"
+       mouse_opaque="true" name="Set Target"
+       tool_tip="Set the target avatar" width="90" />
+  <check_box bottom_delta="-25" enabled="true" follows="left|top" font="SansSerifSmall"
+         height="20" initial_value="false" label="Cards" left="5"
+         name="card_toggle" radio_style="false" width="100" />
+  <button bottom_delta="0" font="SansSerif" follows="left|top" height="18" label="Send Packet"
+         left_delta="65" mouse_opaque="true" name="Send Packet"
+         scale_image="TRUE" width="90" />
+  <spinner decimal_digits="0" follows="left|top" height="18" increment="1"
+	     label="#" label_width="10" left_delta="90" bottom_delta="0" max_val="50000" min_val="1"
+	     control_name="OnyxNumPacketsToSend"
+	     tool_tip="How many packets to send"
+	     width="70" />
+  <text bottom_delta="-12" height="16" left="7" name="lol0" width="260">
+    ________________________________________________________
+  </text>
+  <text bottom_delta="-15" left_delta="25" name="reason" width="200">
+    o.o
+  </text>
+  <button left_delta="-22" visible="false" bottom_delta="-30" width="20" height="20" name="VEr" label="" scale_image="true" 
+    image_selected          ="UIImgCheckboxActiveUUID"
+    image_unselected        ="UIImgCheckboxActiveUUID"
+    image_hover_selected    ="UIImgCheckboxActiveUUID"
+    image_hover_unselected  ="UIImgCheckboxActiveUUID"/>
+  <button left_delta="0" bottom_delta="-25" width="20" height="20" name="IDr" label="" scale_image="true" 
+    image_selected          ="UIImgCheckboxActiveUUID"
+    image_unselected        ="UIImgCheckboxActiveUUID"
+    image_hover_selected    ="UIImgCheckboxActiveUUID"
+    image_hover_unselected  ="UIImgCheckboxActiveUUID"/>
+  <button left_delta="0" bottom_delta="-25" width="20" height="20" name="MPr" label="" scale_image="true" 
+    image_selected          ="UIImgCheckboxActiveUUID"
+    image_unselected        ="UIImgCheckboxActiveUUID"
+    image_hover_selected    ="UIImgCheckboxActiveUUID"
+    image_hover_unselected  ="UIImgCheckboxActiveUUID"/>
+  <button left_delta="0" bottom_delta="-25" width="20" height="20" name="RWr" label="" scale_image="true"
+    image_selected          ="UIImgCheckboxActiveUUID"
+    image_unselected        ="UIImgCheckboxActiveUUID"
+    image_hover_selected    ="UIImgCheckboxActiveUUID"
+    image_hover_unselected  ="UIImgCheckboxActiveUUID"/>
+  <button left_delta="0" bottom_delta="-25" width="20" height="20" name="IDPr" label="" scale_image="true" 
+    image_selected          ="UIImgCheckboxActiveUUID"
+    image_unselected        ="UIImgCheckboxActiveUUID"
+    image_hover_selected    ="UIImgCheckboxActiveUUID"
+    image_hover_unselected  ="UIImgCheckboxActiveUUID"/>
+  <button left_delta="0" bottom_delta="-25" width="20" height="20" name="OVRr" label="" scale_image="true" visible="false"
+    image_selected          ="UIImgCheckboxActiveUUID"
+    image_unselected        ="UIImgCheckboxActiveUUID"
+    image_hover_selected    ="UIImgCheckboxActiveUUID"
+    image_hover_unselected  ="UIImgCheckboxActiveUUID"/>
+	<button bottom_delta="124" font="SansSerif" halign="center" height="20" label="VE Crash"
+	     left_delta="20" mouse_opaque="true" name="viewer_effect"
+	     scale_image="TRUE" width="150" />
+  <button bottom_delta="-25" font="SansSerif" halign="center" height="20" label="ID Crash"
+	     left_delta="0" mouse_opaque="true" name="idcrash"
+	     scale_image="TRUE" width="150" />
+  <button bottom_delta="-25" font="SansSerif" halign="center" height="20" label="Murr Crash"
+	     left_delta="0" mouse_opaque="true" name="mpcrash"
+	     scale_image="TRUE" width="150" />
+  <button bottom_delta="-25" font="SansSerif" halign="center" height="20" label="Rawr Crash"
+	     left_delta="0" mouse_opaque="true" name="rawrcrash"
+	     scale_image="TRUE" width="150" />
+  <button bottom_delta="-25" font="SansSerif" halign="center" height="20" label="ID++ Crash"
+	     left_delta="0" mouse_opaque="true" name="idpluscrash"
+	     scale_image="TRUE" width="150" />
+  <button bottom_delta="-25" font="SansSerif" halign="center" height="20" label="Overcrash"
+	     left_delta="0" mouse_opaque="true" name="overcrash"
+	     scale_image="TRUE" width="150" enabled="false" />
+  <button bottom_delta="-3" font="SansSerif" halign="center" height="125" label="Use All"
+	     left_delta="150" mouse_opaque="true" name="useallcrash"
+	     scale_image="TRUE" width="50" />
+  <button bottom_delta="-22" enabled="false" font="SansSerif" halign="center" height="20" label="Simulator Crash"
+	     left_delta="-150" mouse_opaque="true" name="simulatorcrash"
+	     scale_image="TRUE" width="150" />
+  <text bottom_delta="-11" height="16" left_delta="-23" name="lol1" width="260">
+    _______________________________________________________
+  </text>
+  <check_box bottom_delta="-25" enabled="true" follows="left|top" font="SansSerifSmall"
+         height="20" initial_value="false" label="Block / Clear Dialogs" left_delta="0"
+         name="dialogblock_toggle" radio_style="false" width="100" />
+  <check_box bottom_delta="-25" enabled="true" follows="left|top" font="SansSerifSmall"
+         height="20" initial_value="false" label="Show Sounds / Source" left_delta="0"
+         name="show_sounds" radio_style="false" width="100" />
+  <check_box bottom_delta="-25" enabled="true" follows="left|top" font="SansSerifSmall"
+         height="20" initial_value="false" label="Block Map Popups" left_delta="0"
+         name="hide_maps" radio_style="false" width="100" />
+  <combo_box name="ClientListCombo" bottom_delta="-20" left_delta="5" follows="left|top" height="18" width="150" max_chars="128" mouse_opaque="true" allow_text_entry="true"
+           tool_tip="Cloak your tag to one belonging to another client." />
+  <button bottom_delta="0" font="SansSerif" halign="center" height="20" label="Test Button 0"
+	     left_delta="155" mouse_opaque="true" name="test_button_zero"
+	     scale_image="TRUE" width="80" />
+  
+  <text bottom_delta="-12" height="16" left="5" name="lol1" width="260">
+    _______________________________________________________
+  </text>
+  <button bottom_delta="-25" font="SansSerif" halign="center" height="20" label="Mass Selector"
+	     left_delta="3" mouse_opaque="true" name="selector"
+	     scale_image="TRUE" width="150" />
+  <button bottom_delta="-25" font="SansSerif" halign="center" height="20" label="Mass Deselector"
+	     left_delta="0" mouse_opaque="true" name="deselector"
+	     scale_image="TRUE" width="150" />
+  <button bottom_delta="0" font="SansSerif" halign="center" height="20" label="Blink"
+	     left_delta="155" mouse_opaque="true" name="blink"
+	     scale_image="TRUE" width="50" />
+  <check_box bottom_delta="-25" enabled="true" follows="left|top" font="SansSerifSmall"
+         height="20" initial_value="false" label="Client Object Interceptors" left_delta="-155"
+         name="ints_toggle" radio_style="false" width="300" />
+  <spinner decimal_digits="1" follows="left|top" height="18" increment="1" initial_val="0"
+	     label="Stop Dist" label_width="50" left_delta="0" bottom_delta="-25" max_val="9001" min_val="0"
+	     name="Stop Dist"
+	     tool_tip="Controls the radius of the inner sphere."
+	     width="110" />
+  <spinner decimal_digits="1" follows="left|top" height="18" increment="1" initial_val="0"
+	     label="Scan Dist" label_width="50" left_delta="115" bottom_delta="0" max_val="9001" min_val="0"
+	     name="Scan Dist"
+	     tool_tip="Controls the radius of the inner sphere."
+	     width="110" />
+  <text bottom_delta="-12" height="16" left="5" name="lol1" width="260">
+    _______________________________________________________
+  </text>
+</floater>
